@@ -1,15 +1,5 @@
-
-  Zone IDs
-
-From DSP Wiki
-Jump to: navigation <#mw-navigation>, search <#p-search>
-
-*This table is from zone_settings sql. zoneip and zoneport are the
-default values, and will be adjusted if your server separates the zones
-across different computers.*
-
-zoneid 	zonetype 	zoneip 	zoneport 	name 	music_day 	music_night
-battlesolo 	battlemulti 	restriction 	tax 	misc
+This table is from zone_settings sql. zoneip and zoneport are the default values, and will be adjusted if your server separates the zones across different computers.
+zoneid 	zonetype 	zoneip 	zoneport 	name 	music_day 	music_night 	battlesolo 	battlemulti 	restriction 	tax 	misc
 0 	1 	127.0.0.1 	54230 	unknown 	0 	0 	0 	0 	0 	0 	32
 1 	2 	127.0.0.1 	54230 	Phanauet_Channel 	229 	229 	101 	219 	0 	0 	152
 2 	2 	127.0.0.1 	54230 	Carpenters_Landing 	0 	0 	101 	219 	0 	0 	156
@@ -45,8 +35,7 @@ battlesolo 	battlemulti 	restriction 	tax 	misc
 32 	1 	127.0.0.1 	54230 	Sealions_Den 	245 	245 	220 	220 	0 	0 	145
 33 	2 	127.0.0.1 	54230 	AlTaieu 	233 	233 	101 	219 	0 	0 	152
 34 	3 	127.0.0.1 	54230 	Grand_Palace_of_HuXzoi 	0 	0 	115 	218 	0 	0 	145
-35 	3 	127.0.0.1 	54230 	The_Garden_of_RuHmet 	228 	228 	115 	218 	0 	0
-145
+35 	3 	127.0.0.1 	54230 	The_Garden_of_RuHmet 	228 	228 	115 	218 	0 	0 	145
 36 	4 	127.0.0.1 	54230 	Empyreal_Paradox 	0 	0 	224 	224 	0 	0 	145
 37 	5 	127.0.0.1 	54230 	Temenos 	0 	0 	218 	219 	0 	0 	144
 38 	5 	127.0.0.1 	54230 	Apollyon 	0 	0 	218 	219 	0 	0 	144
@@ -54,19 +43,14 @@ battlesolo 	battlemulti 	restriction 	tax 	misc
 40 	5 	127.0.0.1 	54230 	Dynamis-Buburimu 	121 	121 	121 	121 	0 	0 	400
 41 	5 	127.0.0.1 	54230 	Dynamis-Qufim 	121 	121 	121 	121 	0 	0 	400
 42 	5 	127.0.0.1 	54230 	Dynamis-Tavnazia 	121 	121 	121 	121 	0 	0 	400
-43 	2 	127.0.0.1 	54230 	Diorama_Abdhaljs-Ghelsba 	0 	0 	218 	219 	0 	0
-152
-44 	2 	127.0.0.1 	54230 	Abdhaljs_Isle-Purgonorgo 	0 	0 	226 	226 	0 	0
-152
+43 	2 	127.0.0.1 	54230 	Diorama_Abdhaljs-Ghelsba 	0 	0 	218 	219 	0 	0 	152
+44 	2 	127.0.0.1 	54230 	Abdhaljs_Isle-Purgonorgo 	0 	0 	226 	226 	0 	0 	152
 45 	2 	127.0.0.1 	54230 	Abyssea-Tahrongi 	51 	51 	52 	52 	0 	0 	154
-46 	2 	127.0.0.1 	54230 	Open_sea_route_to_Al_Zahbi 	147 	147 	101 	138
-0 	0 	152
-47 	2 	127.0.0.1 	54230 	Open_sea_route_to_Mhaura 	147 	147 	101 	138 	0
-	0 	152
+46 	2 	127.0.0.1 	54230 	Open_sea_route_to_Al_Zahbi 	147 	147 	101 	138 	0 	0 	152
+47 	2 	127.0.0.1 	54230 	Open_sea_route_to_Mhaura 	147 	147 	101 	138 	0 	0 	152
 48 	1 	127.0.0.1 	54230 	Al_Zahbi 	178 	178 	178 	178 	0 	0 	664
 49 	0 	127.0.0.1 	54230 	49 	0 	0 	0 	0 	0 	0 	0
-50 	1 	127.0.0.1 	54230 	Aht_Urhgan_Whitegate 	178 	178 	178 	178 	0 	0
-1544
+50 	1 	127.0.0.1 	54230 	Aht_Urhgan_Whitegate 	178 	178 	178 	178 	0 	0 	1544
 51 	2 	127.0.0.1 	54230 	Wajaom_Woodlands 	149 	149 	101 	138 	0 	0 	156
 52 	2 	127.0.0.1 	54230 	Bhaflau_Thickets 	149 	149 	101 	138 	0 	0 	156
 53 	2 	127.0.0.1 	54230 	Nashmau 	175 	175 	175 	175 	0 	0 	552
@@ -74,19 +58,15 @@ battlesolo 	battlemulti 	restriction 	tax 	misc
 55 	6 	127.0.0.1 	54230 	Ilrusi_Atoll 	0 	0 	144 	144 	0 	0 	145
 56 	6 	127.0.0.1 	54230 	Periqia 	0 	0 	144 	144 	0 	0 	145
 57 	4 	127.0.0.1 	54230 	Talacca_Cove 	0 	0 	143 	143 	0 	0 	145
-58 	2 	127.0.0.1 	54230 	Silver_Sea_route_to_Nashmau 	147 	147 	101 	138
-	0 	0 	144
-59 	2 	127.0.0.1 	54230 	Silver_Sea_route_to_Al_Zahbi 	147 	147 	101
-138 	0 	0 	144
+58 	2 	127.0.0.1 	54230 	Silver_Sea_route_to_Nashmau 	147 	147 	101 	138 	0 	0 	144
+59 	2 	127.0.0.1 	54230 	Silver_Sea_route_to_Al_Zahbi 	147 	147 	101 	138 	0 	0 	144
 60 	6 	127.0.0.1 	54230 	The_Ashu_Talif 	172 	172 	143 	143 	0 	0 	128
 61 	2 	127.0.0.1 	54230 	Mount_Zhayolm 	0 	0 	101 	138 	0 	0 	158
 62 	3 	127.0.0.1 	54230 	Halvung 	0 	0 	115 	139 	0 	0 	145
 63 	6 	127.0.0.1 	54230 	Lebros_Cavern 	0 	0 	144 	144 	0 	0 	145
-64 	4 	127.0.0.1 	54230 	Navukgo_Execution_Chamber 	0 	0 	143 	143 	0 	0
-	145
+64 	4 	127.0.0.1 	54230 	Navukgo_Execution_Chamber 	0 	0 	143 	143 	0 	0 	145
 65 	3 	127.0.0.1 	54230 	Mamook 	0 	0 	115 	139 	0 	0 	145
-66 	6 	127.0.0.1 	54230 	Mamool_Ja_Training_Grounds 	0 	0 	144 	144 	0
-0 	145
+66 	6 	127.0.0.1 	54230 	Mamool_Ja_Training_Grounds 	0 	0 	144 	144 	0 	0 	145
 67 	4 	127.0.0.1 	54230 	Jade_Sepulcher 	0 	0 	143 	143 	0 	0 	145
 68 	3 	127.0.0.1 	54230 	Aydeewa_Subterrane 	174 	174 	115 	139 	0 	0 	145
 69 	6 	127.0.0.1 	54230 	Leujaoam_Sanctum 	0 	0 	144 	144 	0 	0 	145
@@ -100,8 +80,7 @@ battlesolo 	battlemulti 	restriction 	tax 	misc
 77 	6 	127.0.0.1 	54230 	Nyzul_Isle 	148 	148 	144 	144 	0 	0 	145
 78 	4 	127.0.0.1 	54230 	Hazhalm_Testing_Grounds 	0 	0 	0 	0 	0 	0 	144
 79 	2 	127.0.0.1 	54230 	Caedarva_Mire 	173 	173 	101 	138 	0 	0 	156
-80 	1 	127.0.0.1 	54230 	Southern_San_dOria_[S] 	254 	254 	254 	254 	0
-0 	72
+80 	1 	127.0.0.1 	54230 	Southern_San_dOria_[S] 	254 	254 	254 	254 	0 	0 	72
 81 	2 	127.0.0.1 	54230 	East_Ronfaure_[S] 	251 	251 	101 	215 	0 	0 	156
 82 	2 	127.0.0.1 	54230 	Jugner_Forest_[S] 	0 	0 	101 	215 	0 	0 	156
 83 	2 	127.0.0.1 	54230 	Vunkerl_Inlet_[S] 	0 	0 	101 	215 	0 	0 	156
@@ -112,18 +91,14 @@ battlesolo 	battlemulti 	restriction 	tax 	misc
 88 	2 	127.0.0.1 	54230 	North_Gustaberg_[S] 	253 	253 	101 	215 	0 	0 	156
 89 	2 	127.0.0.1 	54230 	Grauberg_[S] 	0 	0 	101 	215 	0 	0 	156
 90 	2 	127.0.0.1 	54230 	Pashhow_Marshlands_[S] 	0 	0 	101 	215 	0 	0 	156
-91 	2 	127.0.0.1 	54230 	Rolanberry_Fields_[S] 	252 	252 	101 	215 	0 	0
-	156
+91 	2 	127.0.0.1 	54230 	Rolanberry_Fields_[S] 	252 	252 	101 	215 	0 	0 	156
 92 	3 	127.0.0.1 	54230 	Beadeaux_[S] 	44 	44 	115 	216 	0 	0 	145
 93 	6 	127.0.0.1 	54230 	Ruhotz_Silvermines 	0 	0 	216 	216 	0 	0 	145
 94 	1 	127.0.0.1 	54230 	Windurst_Waters_[S] 	182 	182 	182 	182 	0 	0 	72
-95 	2 	127.0.0.1 	54230 	West_Sarutabaruta_[S] 	141 	141 	101 	215 	0 	0
-	156
+95 	2 	127.0.0.1 	54230 	West_Sarutabaruta_[S] 	141 	141 	101 	215 	0 	0 	156
 96 	3 	127.0.0.1 	54230 	Fort_Karugo-Narugo_[S] 	0 	0 	101 	215 	0 	0 	156
-97 	2 	127.0.0.1 	54230 	Meriphataud_Mountains_[S] 	0 	0 	101 	215 	0 	0
-	156
-98 	2 	127.0.0.1 	54230 	Sauromugue_Champaign_[S] 	252 	252 	101 	215 	0
-	0 	156
+97 	2 	127.0.0.1 	54230 	Meriphataud_Mountains_[S] 	0 	0 	101 	215 	0 	0 	156
+98 	2 	127.0.0.1 	54230 	Sauromugue_Champaign_[S] 	252 	252 	101 	215 	0 	0 	156
 99 	3 	127.0.0.1 	54230 	Castle_Oztroja_[S] 	44 	44 	115 	216 	0 	0 	145
 100 	2 	127.0.0.1 	54230 	West_Ronfaure 	109 	109 	101 	103 	0 	0 	156
 101 	2 	127.0.0.1 	54230 	East_Ronfaure 	109 	109 	101 	103 	0 	0 	156
@@ -139,22 +114,18 @@ battlesolo 	battlemulti 	restriction 	tax 	misc
 111 	2 	127.0.0.1 	54230 	Beaucedine_Glacier 	0 	0 	101 	103 	0 	0 	156
 112 	2 	127.0.0.1 	54230 	Xarcabard 	164 	164 	101 	103 	0 	0 	156
 113 	2 	127.0.0.1 	54230 	Cape_Teriggan 	0 	0 	101 	191 	0 	0 	156
-114 	2 	127.0.0.1 	54230 	Eastern_Altepa_Desert 	171 	171 	101 	191 	0
-0 	156
+114 	2 	127.0.0.1 	54230 	Eastern_Altepa_Desert 	171 	171 	101 	191 	0 	0 	156
 115 	2 	127.0.0.1 	54230 	West_Sarutabaruta 	113 	113 	101 	103 	0 	0 	156
 116 	2 	127.0.0.1 	54230 	East_Sarutabaruta 	113 	113 	101 	103 	0 	0 	156
 117 	2 	127.0.0.1 	54230 	Tahrongi_Canyon 	0 	0 	101 	103 	0 	0 	156
 118 	2 	127.0.0.1 	54230 	Buburimu_Peninsula 	0 	0 	101 	103 	0 	0 	156
 119 	2 	127.0.0.1 	54230 	Meriphataud_Mountains 	0 	0 	101 	103 	0 	0 	156
-120 	2 	127.0.0.1 	54230 	Sauromugue_Champaign 	158 	158 	101 	103 	0 	0
-	156
-121 	2 	127.0.0.1 	54230 	The_Sanctuary_of_ZiTah 	190 	190 	101 	191 	0
-0 	156
+120 	2 	127.0.0.1 	54230 	Sauromugue_Champaign 	158 	158 	101 	103 	0 	0 	156
+121 	2 	127.0.0.1 	54230 	The_Sanctuary_of_ZiTah 	190 	190 	101 	191 	0 	0 	156
 122 	2 	127.0.0.1 	54230 	RoMaeve 	211 	211 	101 	191 	0 	0 	156
 123 	2 	127.0.0.1 	54230 	Yuhtunga_Jungle 	134 	134 	101 	191 	0 	0 	156
 124 	2 	127.0.0.1 	54230 	Yhoator_Jungle 	134 	134 	101 	191 	0 	0 	156
-125 	2 	127.0.0.1 	54230 	Western_Altepa_Desert 	171 	171 	101 	191 	0
-0 	156
+125 	2 	127.0.0.1 	54230 	Western_Altepa_Desert 	171 	171 	101 	191 	0 	0 	156
 126 	2 	127.0.0.1 	54230 	Qufim_Island 	0 	0 	101 	103 	0 	0 	156
 127 	2 	127.0.0.1 	54230 	Behemoths_Dominion 	0 	0 	101 	103 	0 	0 	156
 128 	2 	127.0.0.1 	54230 	Valley_of_Sorrows 	0 	0 	101 	191 	0 	0 	156
@@ -167,8 +138,7 @@ battlesolo 	battlemulti 	restriction 	tax 	misc
 135 	5 	127.0.0.1 	54230 	Dynamis-Xarcabard 	119 	119 	119 	119 	0 	0 	400
 136 	2 	127.0.0.1 	54230 	Beaucedine_Glacier_[S] 	0 	0 	101 	215 	0 	0 	156
 137 	2 	127.0.0.1 	54230 	Xarcabard_[S] 	42 	42 	101 	215 	0 	0 	156
-138 	3 	127.0.0.1 	54230 	Castle_Zvahl_Baileys_[S] 	43 	43 	101 	215 	0
-0 	145
+138 	3 	127.0.0.1 	54230 	Castle_Zvahl_Baileys_[S] 	43 	43 	101 	215 	0 	0 	145
 139 	4 	127.0.0.1 	54230 	Horlais_Peak 	0 	0 	125 	125 	0 	0 	145
 140 	3 	127.0.0.1 	54230 	Ghelsba_Outpost 	0 	0 	115 	102 	0 	0 	145
 141 	3 	127.0.0.1 	54230 	Fort_Ghelsba 	0 	0 	115 	102 	0 	0 	145
@@ -185,15 +155,13 @@ battlesolo 	battlemulti 	restriction 	tax 	misc
 152 	3 	127.0.0.1 	54230 	Altar_Room 	0 	0 	115 	102 	0 	0 	145
 153 	3 	127.0.0.1 	54230 	The_Boyahda_Tree 	0 	0 	115 	192 	0 	0 	145
 154 	3 	127.0.0.1 	54230 	Dragons_Aery 	0 	0 	115 	192 	0 	0 	145
-155 	3 	127.0.0.1 	54230 	Castle_Zvahl_Keep_[S] 	43 	43 	101 	215 	0 	0
-145
+155 	3 	127.0.0.1 	54230 	Castle_Zvahl_Keep_[S] 	43 	43 	101 	215 	0 	0 	145
 156 	4 	127.0.0.1 	54230 	Throne_Room_[S] 	0 	0 	0 	0 	0 	0 	145
 157 	3 	127.0.0.1 	54230 	Middle_Delkfutts_Tower 	0 	0 	115 	102 	0 	0 	145
 158 	3 	127.0.0.1 	54230 	Upper_Delkfutts_Tower 	0 	0 	115 	102 	0 	0 	145
 159 	3 	127.0.0.1 	54230 	Temple_of_Uggalepih 	0 	0 	115 	192 	0 	0 	145
 160 	3 	127.0.0.1 	54230 	Den_of_Rancor 	0 	0 	115 	192 	0 	0 	145
-161 	3 	127.0.0.1 	54230 	Castle_Zvahl_Baileys 	155 	155 	115 	102 	0 	0
-	145
+161 	3 	127.0.0.1 	54230 	Castle_Zvahl_Baileys 	155 	155 	115 	102 	0 	0 	145
 162 	3 	127.0.0.1 	54230 	Castle_Zvahl_Keep 	155 	155 	115 	102 	0 	0 	145
 163 	4 	127.0.0.1 	54230 	Sacrificial_Chamber 	0 	0 	193 	193 	0 	0 	145
 164 	3 	127.0.0.1 	54230 	Garlaige_Citadel_[S] 	0 	0 	115 	216 	0 	0 	145
@@ -207,18 +175,15 @@ battlesolo 	battlemulti 	restriction 	tax 	misc
 172 	3 	127.0.0.1 	54230 	Zeruhn_Mines 	0 	0 	115 	102 	0 	0 	144
 173 	3 	127.0.0.1 	54230 	Korroloka_Tunnel 	0 	0 	115 	192 	0 	0 	145
 174 	3 	127.0.0.1 	54230 	Kuftal_Tunnel 	0 	0 	115 	192 	0 	0 	145
-175 	3 	127.0.0.1 	54230 	The_Eldieme_Necropolis_[S] 	0 	0 	115 	216 	0
-0 	145
+175 	3 	127.0.0.1 	54230 	The_Eldieme_Necropolis_[S] 	0 	0 	115 	216 	0 	0 	145
 176 	3 	127.0.0.1 	54230 	Sea_Serpent_Grotto 	0 	0 	115 	192 	0 	0 	145
 177 	3 	127.0.0.1 	54230 	VeLugannon_Palace 	207 	207 	115 	192 	0 	0 	145
-178 	3 	127.0.0.1 	54230 	The_Shrine_of_RuAvitau 	207 	207 	115 	192 	0
-0 	145
+178 	3 	127.0.0.1 	54230 	The_Shrine_of_RuAvitau 	207 	207 	115 	192 	0 	0 	145
 179 	4 	127.0.0.1 	54230 	Stellar_Fulcrum 	0 	0 	193 	193 	0 	0 	145
 180 	4 	127.0.0.1 	54230 	LaLoff_Amphitheater 	0 	0 	196 	196 	0 	0 	145
 181 	4 	127.0.0.1 	54230 	The_Celestial_Nexus 	0 	0 	198 	198 	0 	0 	145
 182 	4 	127.0.0.1 	54230 	Walk_of_Echoes 	0 	0 	215 	215 	0 	0 	0
-183 	6 	127.0.0.1 	54230 	Maquette_Abdhaljs-Legion 	0 	0 	143 	143 	0 	0
-	154
+183 	6 	127.0.0.1 	54230 	Maquette_Abdhaljs-Legion 	0 	0 	143 	143 	0 	0 	154
 184 	3 	127.0.0.1 	54230 	Lower_Delkfutts_Tower 	0 	0 	115 	102 	0 	0 	145
 185 	5 	127.0.0.1 	54230 	Dynamis-San_dOria 	121 	121 	121 	121 	0 	0 	400
 186 	5 	127.0.0.1 	54230 	Dynamis-Bastok 	121 	121 	121 	121 	0 	0 	400
@@ -255,21 +220,15 @@ battlesolo 	battlemulti 	restriction 	tax 	misc
 217 	2 	127.0.0.1 	54230 	Abyssea-Vunkerl 	51 	51 	52 	52 	0 	0 	154
 218 	2 	127.0.0.1 	54230 	Abyssea-Altepa 	51 	51 	52 	52 	0 	0 	154
 219 	1 	127.0.0.1 	54230 	Residential_Area 	0 	0 	0 	0 	0 	0 	32
-220 	0 	127.0.0.1 	54230 	Ship_bound_for_Selbina 	106 	106 	101 	103 	0
-0 	152
-221 	0 	127.0.0.1 	54230 	Ship_bound_for_Mhaura 	106 	106 	101 	103 	0
-0 	152
+220 	0 	127.0.0.1 	54230 	Ship_bound_for_Selbina 	106 	106 	101 	103 	0 	0 	152
+221 	0 	127.0.0.1 	54230 	Ship_bound_for_Mhaura 	106 	106 	101 	103 	0 	0 	152
 222 	4 	127.0.0.1 	54230 	Provenance 	56 	56 	56 	56 	0 	0 	0
-223 	2 	127.0.0.1 	54230 	San_dOria-Jeuno_Airship 	128 	128 	128 	128 	0
-	0 	8
+223 	2 	127.0.0.1 	54230 	San_dOria-Jeuno_Airship 	128 	128 	128 	128 	0 	0 	8
 224 	2 	127.0.0.1 	54230 	Bastok-Jeuno_Airship 	128 	128 	128 	128 	0 	0 	8
-225 	2 	127.0.0.1 	54230 	Windurst-Jeuno_Airship 	128 	128 	128 	128 	0
-0 	8
+225 	2 	127.0.0.1 	54230 	Windurst-Jeuno_Airship 	128 	128 	128 	128 	0 	0 	8
 226 	2 	127.0.0.1 	54230 	Kazham-Jeuno_Airship 	128 	128 	128 	128 	0 	0 	8
-227 	2 	127.0.0.1 	54230 	Ship_bound_for_Selbina_Pirates 	106 	106 	101
-103 	0 	0 	152
-228 	2 	127.0.0.1 	54230 	Ship_bound_for_Mhaura_Pirates 	106 	106 	101
-103 	0 	0 	152
+227 	2 	127.0.0.1 	54230 	Ship_bound_for_Selbina_Pirates 	106 	106 	101 	103 	0 	0 	152
+228 	2 	127.0.0.1 	54230 	Ship_bound_for_Mhaura_Pirates 	106 	106 	101 	103 	0 	0 	152
 229 	0 	127.0.0.1 	0 	229 	0 	0 	0 	0 	0 	0 	0
 230 	1 	127.0.0.1 	54230 	Southern_San_dOria 	107 	107 	107 	107 	0 	0 	584
 231 	1 	127.0.0.1 	54230 	Northern_San_dOria 	107 	107 	107 	107 	0 	0 	72
@@ -296,8 +255,7 @@ battlesolo 	battlemulti 	restriction 	tax 	misc
 252 	1 	127.0.0.1 	54230 	Norg 	209 	209 	209 	209 	0 	0 	616
 253 	2 	127.0.0.1 	54230 	Abyssea-Uleguerand 	51 	51 	52 	52 	0 	0 	154
 254 	2 	127.0.0.1 	54230 	Abyssea-Grauberg 	51 	51 	52 	52 	0 	0 	154
-255 	2 	127.0.0.1 	54230 	Abyssea-Empyreal_Paradox 	51 	51 	52 	52 	0 	0
-	154
+255 	2 	127.0.0.1 	54230 	Abyssea-Empyreal_Paradox 	51 	51 	52 	52 	0 	0 	154
 256 	1 	127.0.0.1 	54230 	Western_Adoulin 	59 	59 	59 	59 	0 	0 	1608
 257 	1 	127.0.0.1 	54230 	Eastern_Adoulin 	63 	63 	63 	63 	0 	0 	1608
 258 	3 	127.0.0.1 	54230 	Rala_Waterways 	61 	61 	57 	57 	0 	0 	0
@@ -340,86 +298,4 @@ battlesolo 	battlemulti 	restriction 	tax 	misc
 295 	5 	127.0.0.1 	54230 	Dynamis-Bastok_[D] 	88 	88 	88 	88 	0 	0 	400
 296 	5 	127.0.0.1 	54230 	Dynamis-Windurst_[D] 	88 	88 	88 	88 	0 	0 	400
 297 	5 	127.0.0.1 	54230 	Dynamis-Jeuno_[D] 	88 	88 	88 	88 	0 	0 	400
-
-Retrieved from
-"https://wiki.dspt.info/index.php?title=Zone_IDs&oldid=22780
-<https://wiki.dspt.info/index.php?title=Zone_IDs&oldid=22780>"
-
-
-    Navigation menu
-
-
-      Personal tools
-
-  * Log in
-    <http://wiki.dspt.info/index.php?title=Special:UserLogin&returnto=Zone+IDs>
-
-
-      Namespaces
-
-  * Page <http://wiki.dspt.info/index.php/Zone_IDs>
-  * Discussion
-    <http://wiki.dspt.info/index.php?title=Talk:Zone_IDs&action=edit&redlink=1>
-
-
-      Variants<#>
-
-
-      Views
-
-  * Read <http://wiki.dspt.info/index.php/Zone_IDs>
-  * View source <http://wiki.dspt.info/index.php?title=Zone_IDs&action=edit>
-  * View history
-    <http://wiki.dspt.info/index.php?title=Zone_IDs&action=history>
-
-
-      More<#>
-
-
-      Search
-
-<http://wiki.dspt.info/index.php/Main_Page>
-
-
-      Navigation
-
-  * Main page <http://wiki.dspt.info/index.php/Main_Page>
-  * Current events <http://wiki.dspt.info/index.php/DSP_Wiki:Current_events>
-  * Recent changes <http://wiki.dspt.info/index.php/Special:RecentChanges>
-  * Random page <http://wiki.dspt.info/index.php/Special:Random>
-  * Help <https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents>
-
-
-      DSP Community
-
-  * Home Page <https://dspt.info/home.php>
-  * Forums <https://forums.dspt.info/>
-  * Discord <https://discord.gg/Xuu5YX7>
-  * Gist <https://gist.github.com/>
-  * pastebin <http://kile.dyndns.info:8765/paste>
-
-
-      Tools
-
-  * What links here
-    <http://wiki.dspt.info/index.php/Special:WhatLinksHere/Zone_IDs>
-  * Related changes
-    <http://wiki.dspt.info/index.php/Special:RecentChangesLinked/Zone_IDs>
-  * Special pages <http://wiki.dspt.info/index.php/Special:SpecialPages>
-  * Printable version
-    <http://wiki.dspt.info/index.php?title=Zone_IDs&printable=yes>
-  * Permanent link
-    <http://wiki.dspt.info/index.php?title=Zone_IDs&oldid=22780>
-  * Page information
-    <http://wiki.dspt.info/index.php?title=Zone_IDs&action=info>
-
-  * This page was last modified on 26 April 2019, at 01:42.
-  * This page has been accessed 159,428 times.
-
-  * Privacy policy <http://wiki.dspt.info/index.php/DSP_Wiki:Privacy_policy>
-  * About DSP Wiki <http://wiki.dspt.info/index.php/DSP_Wiki:About>
-  * Disclaimers
-    <http://wiki.dspt.info/index.php/DSP_Wiki:General_disclaimer>
-
-  * Powered by MediaWiki <http://www.mediawiki.org/>
-
+Retrieved from "https://wiki.dspt.info/index.php?title=Zone_IDs&oldid=22780" 
